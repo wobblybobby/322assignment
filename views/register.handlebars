@@ -1,0 +1,59 @@
+<form id="registerForm" action="/users/register" method="POST">
+  <table style="border: 1px dashed #cdcdcd;padding:6px;">
+    <tbody>
+        <tr>
+            <td><label for="fname">Your First Name:</label></td>
+            <td><input  style="width:100%" id="fname" type="text" placeholder="First name" name="fname"/></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Your Last Name:</label></td>
+            <td><input style="width:100%" id="lname" type="text" placeholder="Last name" name="lname"/></td>
+        </tr>
+        <tr>
+            <td><label for="email">Your Email:</label></td>
+            <td><input style="width:100%" id="email" type="text" placeholder="Email address" name="email"/>
+        <tr>
+            <td><label for="password">Your Password:</label></td>
+            <td><input style="width:100%" id="password" type="password" name="password"/></td>
+        </tr>
+        <tr>
+            <td><label for="passwordconfirm">Confirm Password:</label></td>
+            <td><input style="width:100%" id="passwordconfirm" type="password" name="passwordconfirm"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><button type="submit">Register</button></td>
+        </tr>
+    </tbody>
+  </table>
+</form>
+
+<div id="errorResponse" style="text-align: center;">
+    {{#if response1}}
+    <br>
+    {{response1}}
+    {{/if}}
+    {{#if response2}}
+    <br>
+    {{response2}}
+    {{/if}}
+    {{#if response3}}
+    <br>
+    {{response3}}
+    {{/if}}
+    {{#if response4}}
+    <br>
+    {{response4}}
+    {{/if}}
+    {{#if response5}}
+    <br>
+    {{response5}}
+    {{/if}}
+    {{#if response6}}
+    <br>
+    {{response6}}
+    {{/if}}
+    {{#if response7}}
+    <br>
+    {{response7}}
+    {{/if}}
+</div>

@@ -1,0 +1,26 @@
+<form id="loginForm" action="/users/login" method="POST">
+  <table style="border: 1px dashed #cdcdcd;padding:6px;">
+    <tbody>
+        <tr>
+            <td><label for="email">Your Email:</label></td>
+            <td><input style="width:100%" id="email" type="text" placeholder="Email address" name="email"/>
+        <tr>
+            <td><label for="password">Your Password:</label></td>
+            <td><input style="width:100%" id="password" type="password" placeholder="Password" name="password"/></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><button type="submit">Login</button></td>
+        </tr>
+    </tbody>
+  </table>
+</form>
+<div id="errorResponse" style="text-align: center;">
+    {{#if response1}}
+    <br>
+    {{response1}}
+    {{/if}}
+    {{#if response2}}
+    <br>
+    {{response2}}
+    {{/if}}
+</div>

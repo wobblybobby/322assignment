@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+<br><h2 class="subheading" style="text-align: center;">Featured Properties</h2>
+<h4 class="subheading" style="text-align: center;">Properties rated 4.5/5 and up</h4><br>
+
+<div class="splide">
+	<div class="splide__track">
+		<ul class="splide__list">
+            {{#each featuredProperties}}
+            <li class="splide__slide"><a href="/property-details/{{this.id}}"><img src="{{this.image}}" alt="{{this.title}}" height="500px"></a></li>
+            {{/each}}
+		</ul>
+	</div>
+</div>
+
+<br><h2 class="subheading" style="text-align: center;">Browse by type</h2><br>
+
+<section class="type-section">
+    <div class="homeTiles">
+        <a href="/property-listing/type/hotels">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80);"></div>
+        </a>
+        <p>Hotels</p>
+    </div>
+    <div class="homeTiles">
+        <a href="/property-listing/type/motels">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1600375235940-76fb0f15b010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1673&q=80);"></div>
+        </a>
+        <p>Motels</p>
+    </div>
+        <div class="homeTiles">
+        <a href="/property-listing/type/resorts">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);"></div>
+        </a>
+        <p>Resorts</p>
+    </div>
+        <div class="homeTiles">
+        <a href="/property-listing/type/cabins">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1542718610-a1d656d1884c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);"></div>
+        </a>
+        <p>Cabins</p>
+    </div>
+</section>
+
+<br><h2 class="subheading" style="text-align: center;">Browse by location</h2><br>
+<section class="location-section">
+    <div class="homeTiles">
+        <a href="/property-listing/location/canada">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2140&q=80);"></div>
+        </a>
+        <p>Canada</p>
+    </div>
+    <div class="homeTiles">
+        <a href="/property-listing/location/unitedstates">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1524083068160-0dcacf4e41ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80);"></div>
+        </a>
+        <p>United States</p>
+    </div>
+    <div class="homeTiles">
+        <a href="/property-listing/location/china">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1568044941821-bf7e9075c4e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=564&q=80);"></div>
+        </a>
+        <p>China</p>
+    </div>
+    <div class="homeTiles">
+        <a href="/property-listing/location/japan">
+        <div class="shrink-image" style="background-image: url(https://images.unsplash.com/photo-1469996933743-a1f6a78f1082?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);"></div>
+        </a>
+        <p>Japan</p>
+    </div>
+</section>
+
+<br><h2 class="subheading" style="text-align: center;">Discover</h2><br>
+<section class="content-section">
+<div class="wrapper">
+  <a href="/content"> <div class="box box1" style="background-image: url(https://www.sohohotel.ca/wp-content/uploads/2019/10/things-to-do-in-toronto-part-1-256x256.jpg); background-size: cover;">Toronto's Attractions</div></a>
+  <a href="/content"> <div class="box box2" style="background-image: url(https://www.niagarafallslive.com/wp-content/uploads/2013/08/opt-niagara_falls-300x250.jpg); background-size: cover;">Niagara Falls Attractions</div></a>
+  <a href="/content"> <div class="box" style="background-image: url(https://media.hrs.com/media/image/98/42/4b/Amfora_Hvar_Grand_Beach_Resort-Hvar-Aussenansicht-5-86499_600x600.jpg); background-size: cover;">Popular Travel Locations</div></a>
+  <a href="/content"> <div class="box" style="background-image: url(https://media.radissonhotelsamericas.com/image/park-inn-by-radisson-toronto-markham/restaurant/20828-139830-f63668702_3xl.jpg?impolicy=CustomCrop&cwidth=256&cheight=256); background-size: cover;">Best Restaurants</div></a>
+  <a href="/content"> <div class="box" style="background-image: url(https://images.adsttc.com/media/images/5ffe/5a97/63c0/174c/f800/00ee/newsletter/1.jpg?1610504845); background-size: cover;">Notable Architecture</div></a>
+  <a href="/content"> <div class="box" style="background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,g_xy_center,h_440,q_65,w_640,x_800,y_549/v1/clients/toronto/167_3_5885_jpeg_a3df0fcf-c9f7-4560-9cc7-2eca43344084.jpg); background-size: cover;">Upcoming Events</div></a>
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script>
+	new Splide( '.splide', {
+		autoWidth: true,
+		rewind   : true,
+	} ).mount();
+</script>

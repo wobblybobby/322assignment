@@ -1,0 +1,19 @@
+<section id="details-section">
+    {{#if singleProperty}}
+    <img src="{{singleProperty.image}}" alt="Picture of {{this.title}}" style="margin-top: 30px;">
+    <h1 style="text-align: center;">{{singleProperty.title}}</h1>
+    <ul>
+        <li>Location : {{singleProperty.location}}</li>
+        <li>Rating : {{singleProperty.rating}}</li>
+        <li>Type : {{singleProperty.type}}</li>
+        <li>Price : ${{singleProperty.price}}</li>
+        <li>Details : {{singleProperty.details}}</li>
+        <br>
+    </ul>
+    <img src="{{singleProperty.image2}}" alt="Picture of {{this.title}}" style="margin-top: 10px;">
+    <br>
+    <img src="{{singleProperty.image3}}" alt="Picture of {{this.title}}" style="margin-top: 10px;">
+    {{else}}
+    <h1>No such listing found!</h1>
+    {{/if}}
+</section>

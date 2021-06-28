@@ -1,0 +1,161 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: dimgray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pageDescription {
+    text-align: center;
+}
+
+#details {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#featured-section, .type-section, .location-section, .content-section, .wip-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#details-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#details-section > img {
+    width: 100%;
+}
+
+.homeTiles {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 260px;
+    padding: 0;
+    margin: 0;
+}
+
+.homeTiles > p {
+    text-align: center;
+    font: bolder;
+}
+
+.property-container {
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.property-container > ul {
+    max-width: fit-content;
+}
+
+.cropped-image {
+    width: 375px;
+    height: 375px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#detailButton {
+    display: flex;
+    justify-content: center;
+}
+
+#detailbutton > button {
+    background-color: green;
+    color: white;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+.shrink-image {
+    width: 200x;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.browseBy {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Grid */
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
+  
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+    .wrapper {
+      width: 600px;
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: repeat(3, 200px);
+      margin-bottom: 300px;
+    }
+
+#loginForm > table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#registerForm > table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

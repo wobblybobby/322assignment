@@ -1,0 +1,55 @@
+{{#if allProperties}}
+<h1 style="text-align: center;">List of all available properties</h1>
+{{else if propertyByType}}
+<h1 style="text-align: center;">List of all {{reqType}} properties</h1>
+{{else if propertyByLocation}}
+<h1 style="text-align: center;">List of all properties in {{reqParam}}</h1>
+{{/if}}
+
+<section id="featured-section">
+    {{#if allProperties}}
+    {{#each allProperties}}
+    <div class="property-container">
+        <div class="cropped-image" style="background-image: url('{{this.image}}');"></div>
+        <h1>{{this.title}}</h1>
+        <ul>Location : {{this.location}}</ul>
+        <ul>Rating : {{this.rating}}</ul>
+        <ul>Type : {{this.type}}</ul>
+        <ul>Price : ${{this.price}} CAD</ul>
+        <ul style="margin-right: 5%;">Details : {{this.details}}</ul>
+        <a id="detailButton" href="/property-details/{{this.id}}"><button class="button">View Property</button></a>
+    </div>
+    {{/each}}
+
+    {{else if propertyByType}}
+    {{#each propertyByType}}
+    <div class="property-container">
+        <div class="cropped-image" style="background-image: url('{{this.image}}');"></div>
+        <h1>{{this.title}}</h1>
+        <ul>Location : {{this.location}}</ul>
+        <ul>Rating : {{this.rating}}</ul>
+        <ul>Type : {{this.type}}</ul>
+        <ul>Price : ${{this.price}} CAD</ul>
+        <ul style="margin-right: 5%;">Details : {{this.details}}</ul>
+        <a id="detailButton" href="/property-details/{{this.id}}"><button class="button">View Property</button></a>
+    </div>
+    {{/each}}
+
+    {{else if propertyByLocation}}
+    {{#each propertyByLocation}}
+    <div class="property-container">
+        <div class="cropped-image" style="background-image: url('{{this.image}}');"></div>
+        <h1>{{this.title}}</h1>
+        <ul>Location : {{this.location}}</ul>
+        <ul>Rating : {{this.rating}}</ul>
+        <ul>Type : {{this.type}}</ul>
+        <ul>Price : ${{this.price}} CAD</ul>
+        <ul style="margin-right: 5%;">Details : {{this.details}}</ul>
+        <a id="detailButton" href="/property-details/{{this.id}}"><button class="button">View Property</button></a>
+    </div>
+    {{/each}}
+
+    {{else}}
+    <h1>There are no properties that matches your specifications!</h1>
+    {{/if}}
+</section>
