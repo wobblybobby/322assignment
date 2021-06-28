@@ -10,7 +10,7 @@
     {{#if allProperties}}
     {{#each allProperties}}
     <div class="property-container">
-        <div class="cropped-image" style="background-image: url('{{this.image}}');"></div>
+        <a href="/property-details/{{this.id}}"><div class="cropped-image" style="background-image: url('{{this.image}}');"></div></a>
         <h1>{{this.title}}</h1>
         <ul>Location : {{this.location}}</ul>
         <ul>Rating : {{this.rating}}</ul>
@@ -24,7 +24,7 @@
     {{else if propertyByType}}
     {{#each propertyByType}}
     <div class="property-container">
-        <div class="cropped-image" style="background-image: url('{{this.image}}');"></div>
+        <a href="/property-details/{{this.id}}"><div class="cropped-image" style="background-image: url('{{this.image}}');"></div></a>
         <h1>{{this.title}}</h1>
         <ul>Location : {{this.location}}</ul>
         <ul>Rating : {{this.rating}}</ul>
@@ -38,7 +38,7 @@
     {{else if propertyByLocation}}
     {{#each propertyByLocation}}
     <div class="property-container">
-        <div class="cropped-image" style="background-image: url('{{this.image}}');"></div>
+        <a href="/property-details/{{this.id}}"><div class="cropped-image" style="background-image: url('{{this.image}}');"></div></a>
         <h1>{{this.title}}</h1>
         <ul>Location : {{this.location}}</ul>
         <ul>Rating : {{this.rating}}</ul>
