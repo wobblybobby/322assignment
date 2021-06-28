@@ -44,7 +44,7 @@ router.post('/register', urlencodedParser, (req, res) => {
     {
         response6 = "Password must not contain any special characters";
     }
-    if (/^[^a-zA-Z0-9]{6,12}$/i.test(req.body.password) == false)
+    if (/^[a-z0-9]{6,12}/i.test(req.body.password) == false)
     {
         response7 = "Password must be between 6-12 characters";
     }
