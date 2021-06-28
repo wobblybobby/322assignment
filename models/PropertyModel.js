@@ -12,7 +12,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
             image3 : "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
             price : 200,
-            details : "N/A"
+            details : "Luxury hotel in the heart of Canada's biggest city"
         },
         {
             id : 2,
@@ -24,7 +24,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1521828537238-fcecf91b732c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80",
             image3 : "https://images.unsplash.com/photo-1520014384091-f75776a1ca4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2776&q=80",
             price : 69,
-            details : "N/A"
+            details : "Very close in proximity to all local attractions"
         },
         {
             id : 3,
@@ -36,7 +36,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1573551461515-4c44d140a829?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1617&q=80",
             image3 : "https://images.unsplash.com/photo-1539606420556-14c457c45507?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=954&q=80",
             price : 37,
-            details : "N/A"
+            details : "Affordable and unique experience, and surprisingly cozy!"
         },
         {
             id : 4,
@@ -48,7 +48,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1495754149474-e54c07932677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
             image3 : "https://images.unsplash.com/photo-1553104101-f1608f351b76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80",
             price : 295,
-            details : "N/A"
+            details : "Victorian and contemporary fusion for a unique hotel experience"
         },
         {
             id : 5,
@@ -60,7 +60,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1515565324614-5b1976a7ada9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80",
             image3 : "https://unsplash.com/photos/5zX1KAjPl4o",
             price : 201,
-            details : "N/A"
+            details : "High-end luxury hotel with first class facilities"
         },
         {
             id : 6,
@@ -72,7 +72,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80",
             image3 : "https://images.unsplash.com/photo-1525905708812-b271b5e3b2f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1701&q=80",
             price : 110,
-            details : "N/A"
+            details : "Great outside patios to enjoy the LA sun"
         },
         {
             id : 7,
@@ -84,7 +84,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1520681279154-51b3fb4ea0f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80",
             image3 : "https://images.unsplash.com/photo-1517149111020-bf54819ed09a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80",
             price : 139,
-            details : "N/A"
+            details : "Exotic snow-hotel, perfect for watching the Aurora Borealis"
         },
         {
             id : 8,
@@ -96,7 +96,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1523459231854-ec3ba323a2e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2776&q=80",
             image3 : "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
             price : 59,
-            details : "N/A"
+            details : "Cozy motel to stay the night"
         },
         {
             id : 9,
@@ -120,7 +120,7 @@ const PropertyModel = {
             image2: "https://images.unsplash.com/photo-1616064959886-a500e5c38e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
             image3: "https://images.unsplash.com/photo-1559293831-8a81f3bfc36c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80",
             price : 223,
-            details : "N/A"
+            details : "Up to two queen beds in a suite, 2 bathrooms"
         },
         {
             id : 11,
@@ -144,7 +144,7 @@ const PropertyModel = {
             image2 : "https://images.unsplash.com/photo-1529290130-4ca3753253ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1655&q=80",
             image3 : "https://images.unsplash.com/photo-1576675784201-0e142b423952?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=80",
             price : 399,
-            details : "N/A"
+            details : "3 bedroom, two bathroom luxury suite"
         }
     ],
     getAllProperties() {
